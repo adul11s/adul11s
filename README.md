@@ -1,4 +1,4 @@
-# Hi! I'm Abdullah Romli Mubarrok (Joji) 👋
+# Hi! I'm Abdullah Romli Mubarrok  👋
 
 **Senior Lead IT Developer @ PT Home Credit Indonesia — FinTech** | Jakarta / Depok, Indonesia
 
