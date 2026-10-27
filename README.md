@@ -2,26 +2,40 @@
 
 **Senior Lead IT Developer @ PT Home Credit Indonesia — FinTech** | Jakarta / Depok, Indonesia
 
-I lead frontend modernization from legacy systems to **React + TypeScript** with a **Micro Frontend** architecture, optimize CI/CD pipelines, and run end-to-end operations for business-critical systems serving **800+ active users** — including on-call and security remediation.
+I lead frontend modernization from legacy systems to **React + TypeScript** with a **Micro Frontend** architecture, optimize CI/CD pipelines, and run end-to-end operations for business-critical systems serving **800+ active users** — delivery, on-call incident response, and security remediation.
+
+Outside work I build and ship complete products end-to-end: backend, frontend, database, tests, CI/CD, live deploy.
 
 ## ⚡ Tech Stack
 
-`React` `TypeScript` `Micro Frontend` `Node.js` `PHP` `Python` `Oracle SQL` `CI/CD` `Docker` `Linux`
+`React 18/19` `TypeScript` `Next.js App Router` `Module Federation` `Node.js` `NestJS` `Fastify` `Prisma` `Oracle SQL / PL/SQL` `PostgreSQL` `Redis` `PHP` `Python` `GitHub Actions` `Docker` `Linux`
 
-## 🚀 Featured Projects
+## 🚀 What I'm building now
 
-- 💳 **[qupi-backend](https://github.com/adul11s/qupi-backend)** — digital wallet + paylater ledger: double-entry ledger as source of truth, idempotency with fingerprint binding (409 on mismatch), PIN lockout + scrypt, HMAC internal callbacks, reconciliation job, outbox pattern, audit log, OpenAPI — e2e against **real Postgres proven green in CI**
-- 🏦 **[my-fintech-project](https://github.com/adul11s/my-fintech-project)** — micro-frontend wallet UI on top of that API (container + wallet/credit zones), top-up/transfer/QRIS/tags/paylater flows, sandbox banner + honest known-gaps
-- 👓 **[optic-luxe](https://github.com/adul11s/optic-luxe)** — Premium optical e-commerce with AR virtual try-on (Three.js + MediaPipe), POS & inventory — full-stack TypeScript
-- 🏨 **[vouch-handover](https://github.com/adul11s/vouch-handover)** — AI-powered night-shift handover service for hotels (Node.js + TypeScript)
-- ❄️ **[frozenfood-pos](https://github.com/adul11s/frozenfood-pos)** — Offline-ready PWA POS for retail stores (React + TS + Vite, Google Sheets backend)
-- 🏫 **[sdit-bustanul-huda](https://github.com/adul11s/sdit-bustanul-huda-frontend)** — Full-stack school management system (React 19 + Express, TypeScript)
+### 💳 QUPI — fintech wallet + paylater
+- **[qupi-backend](https://github.com/adul11s/qupi-backend)** — modular-monolith **NestJS 11 + Prisma** service: double-entry ledger as source of truth (57/57 ledger invariant tests), idempotency with fingerprint binding (409 on mismatch), PIN/OTP hashing with scrypt + salt, global session guard, reconciliation job, outbox pattern, audit log, OpenAPI. Benchmarked honestly: **2,400 requests, 0 errors**. CI runs e2e against **real Postgres + Redis** service containers.
+- **[qupi-apps](https://github.com/adul11s/my-fintech-project)** — **Next.js multi-zone micro-frontend** frontend on that API: a container shell composing wallet and credit zones via `rewrites()`, with top-up / transfer / QRIS / tags / paylater flows, a sandbox banner and documented known gaps. The same micro-frontend pattern as the enterprise CRS suite, at portfolio scale.
 
-*Supporting repos (optic-luxe, frozenfood-pos, sdit, vouch-handover) are private but demo-ready — I can grant reviewer access.*
+### 🕌 TPQ Qur'ani — public website + role-based CMS
+*Live: [tpq-qurani-portfolio.vercel.app](https://tpq-qurani-portfolio.vercel.app) · API: [tpq-api.onrender.com](https://tpq-api.onrender.com) — source repos private, reviewer access on request.*
+- **tpq-web** — **Next.js 16 + React 19 + TypeScript + Tailwind**: bilingual (ID/EN) public site, class profiles, downloadable-resource dashboard, enrollment inquiries, CMS-driven content so staff publish without a deploy. **316 tests** + Playwright e2e.
+- **tpq-api** — **Fastify 5 + Prisma 7 + PostgreSQL + Redis + MinIO**: signed-URL downloads, RBAC CMS (CRUD, publish workflow, media, audit trail, retention), 2FA, rate limiting, magic-byte upload validation. **224 integration tests against real Postgres/Redis/MinIO**, not mocks.
+- **tpq-docs** — PRD, system/analyst design, QA plan, security review, ADRs and 167 HTML mockups kept as versioned process artefacts.
+- CI gates lint → test → build on every push; a scheduled uptime probe checks `/health` every 6 hours.
+
+## 🧩 Other projects
+
+- 👓 **[optic-luxe](https://github.com/adul11s/optic-luxe)** — premium optical e-commerce with AR virtual try-on (Three.js + MediaPipe), POS & inventory — full-stack TypeScript
+- 🏨 **[vouch-handover](https://github.com/adul11s/vouch-handover)** — AI-powered night-shift handover service for hotels (Node.js + TypeScript), with an evaluation harness
+- ❄️ **[frozenfood-pos](https://github.com/adul11s/frozenfood-pos)** — offline-ready PWA POS for retail (React + TS + Vite)
+- 🏫 **[sdit-bustanul-huda](https://github.com/adul11s/sdit-bustanul-huda-frontend)** — full-stack school management system (React 19 + Express + TS)
+- 📔 **[diary-teachlife](https://github.com/adul11s/diary-teachlife)** — teacher journaling app
+
+*Every repo above ships with a green CI badge, a README that states plainly what is and isn't finished, and tests that run against real services where it matters.*
 
 ## 💼 Open To Work
 
-Senior / Staff **Full-Stack**, **Frontend**, or **Tech Lead** roles — Jakarta (on-site), remote, or overseas.
+Senior / Staff **Full-Stack**, **Frontend**, or **Tech Lead** roles — Jakarta (on-site), remote, or overseas with housing provided.
 
 - 📫 abdullahromli11@gmail.com
 - 💼 [linkedin.com/in/abdullah-romli-mubarrok](https://www.linkedin.com/in/abdullah-romli-mubarrok/)
