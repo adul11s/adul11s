@@ -6,6 +6,8 @@ I researched and implemented a migration from a PHP monolith to **20+ independen
 
 Outside work I build and ship complete products end-to-end: backend, frontend, database, tests, CI/CD, live deploy.
 
+**Portfolio / case studies → [abdullah-romli-portfolio.vercel.app](https://abdullah-romli-portfolio.vercel.app)**
+
 ## ⚡ Tech Stack
 
 `React 18/19` `TypeScript` `Next.js App Router` `Module Federation` `Node.js` `NestJS` `Fastify` `Prisma` `Oracle SQL / PL/SQL` `PostgreSQL` `Redis` `PHP` `Python` `GitHub Actions` `Docker` `Linux`
