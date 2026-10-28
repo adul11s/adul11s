@@ -2,7 +2,7 @@
 
 **Senior Lead IT Developer @ PT Home Credit Indonesia — FinTech** | Jakarta / Depok, Indonesia
 
-I lead frontend modernization from legacy systems to **React + TypeScript** with a **Micro Frontend** architecture, optimize CI/CD pipelines, and run end-to-end operations for business-critical systems serving **800+ active users** — delivery, on-call incident response, and security remediation.
+I researched and implemented a migration from a PHP monolith to **20+ independently deployed React + TypeScript micro-frontend services**, built 7 of them for loan and repayment collection workflows, and run the operations that keep them alive for **300+ active users** — CI/CD, delivery, on-call incident response and security remediation.
 
 Outside work I build and ship complete products end-to-end: backend, frontend, database, tests, CI/CD, live deploy.
 
